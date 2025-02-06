@@ -13,10 +13,11 @@ const Nav = () => {
 
   // TODO: Add necessary code to display the navigation bar and Link between the pages
   return (
-    <div style={navLinks}>Nav</div>
+    <div style={navLinks}>Nav
     <div></div>
     <Link to="/">Home</Link>
-    <Link to=''></Link>
+    <Link to='SavedCandidates'>Candidates</Link>
+    </div>
   )
 };
 
