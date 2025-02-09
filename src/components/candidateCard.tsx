@@ -1,13 +1,17 @@
+
 import { Card, Button } from 'react-bootstrap';
-import Candidate from '../../interfaces/Candidate.interface';
+import Candidate  from '../interfaces/Candidate.interface';
+
+
 
 interface CandidateCardProps {
     candidate: Candidate;
     onSave: (candidate: Candidate) => void;
     onSkip: () => void;
-};
-
-const CandidateCard = ({ candidate, onSave, onSkip }: CandidateCardProps) => {
+  
+  }
+  
+  const CandidateCard = ({ candidate, onSave, onSkip }: CandidateCardProps) => {
     return (
       <div style={{ display: "flex", justifyContent: "center", alignItems: "center", height: "75vh", color: "white" }}>
         <Card style={{
@@ -18,9 +22,12 @@ const CandidateCard = ({ candidate, onSave, onSkip }: CandidateCardProps) => {
           textAlign: "center",
           boxShadow: "0px 4px 10px rgba(0, 0, 0, 0.3)"
         }}>
-            <Card.Img variant="top" src={candidate.avatar} style={{ borderRadius: "30px 30px 0 0", height: "300px", objectFit: "cover" }}
-             />
-             <Card.Body>
+          <Card.Img
+            variant="top"
+            src={candidate.avatar}
+            style={{ borderRadius: "30px 30px 0 0", height: "310px", objectFit: "cover" }}
+          />
+          <Card.Body>
             <Card.Title style={{ fontSize: "1.5rem", fontWeight: "bold", color: "black" }}>
               {candidate.name} ({candidate.username})
             </Card.Title>

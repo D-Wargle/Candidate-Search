@@ -1,14 +1,14 @@
-import Candidate from "../../interfaces/Candidate.interface";
+import Candidate from "../interfaces/Candidate.interface";
 
 interface CandidateTableProps {
     candidates: Candidate[];
     onRemove: (candidate: Candidate) => void;
-};
+}
 
 const List = ({ candidates, onRemove }: CandidateTableProps) => {
     return (
-        <div style={{  color: "white", minHeight: '100vh', padding: '20px' }}>
-            <table style={{ width: "100%", borderCollapse: "collapse", color: 'black' }}>
+        <div style={{ padding: "20px", color: "white", minHeight: "100vh" }}>
+            <table style={{ width: "100%", borderCollapse: "collapse", color: "black" }}>
                 <thead>
                     <tr>
                         <th>Image</th>
@@ -60,7 +60,9 @@ const List = ({ candidates, onRemove }: CandidateTableProps) => {
                         </tr>
                     ))}
                 </tbody>
-                </table>
+            </table>
         </div>
     );
-    };
+};
+
+export default List;

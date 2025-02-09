@@ -1,22 +1,25 @@
-import { Link } from "react-router-dom";
-
+import { Link } from 'react-router-dom';
 const Nav = () => {
-  const navLinks = {
-    display: "flex",
-    justifyContent: "space-between",
-    padding: "1rem",
-    color: "white",
-  backgroundColor: "black",
-  fontSize: "1.5rem",
-  fontWeight: "bold",
-  };
-
-  // TODO: Add necessary code to display the navigation bar and Link between the pages
+  
+   
+    const navStyle = {
+      display: 'flex',
+      alignItems: 'center',
+      justifyContent: 'space-between',
+      backgroundColor: 'black',
+      padding: '1rem',
+      color: 'white',
+      fontSize: '1.2rem',
+      fontWeight: 'bold',
+    };
+  
   return (
-    <div style={navLinks}>Nav
-    <div></div>
-    <Link to="/">Home</Link>
-    <Link to='SavedCandidates'>Candidates</Link>
+    <div style= {navStyle}>
+    <div ></div>
+    <Link to='/'>Home</Link>
+    <Link to='/SavedCandidates'>Potential Candidates
+    </Link>
+    <div/>
     </div>
   )
 };

@@ -6,7 +6,7 @@ interface Candidate {
     location: string;
     avatar: string;
     email: string;
-    htmlURL: string;
+    html_url: string;
     company: string;
     bio: string;
 }
