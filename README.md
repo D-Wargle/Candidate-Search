@@ -71,6 +71,7 @@ This project is licensed under the MIT License. See the full license details her
 If you have any questions or feedback, feel free to reach out:
 - **GitHub**: [D-Wargle](https://github.com/D-Wargle/Candidate-Search)
 - **Email**: danieltwarg@gmail.com
+-- **PHOTO**: ![alt text](<Screenshot 2025-02-09 162136.png>)
 
 ---
 Thank you for checking out this project! 🚀
