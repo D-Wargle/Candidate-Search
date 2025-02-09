@@ -25,11 +25,10 @@ This is licensed under <https://opensource.org/licenses/MIT>
 
 
 ## Contribution
-Nic Miller
+tutor, classmates, and OpenAI
 
 
 
 ## Questions
-If you have questions you can reach me at my GitHub or email below.
-- <https://github.com/NicMiller35>
-- nicmiller13@gmail.com
+If you have questions, feel free to reach out!
+Email: danieltwarg@gmail.com
